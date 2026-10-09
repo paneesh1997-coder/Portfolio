@@ -1,0 +1,6 @@
+nodeLinker: hoisted
+enableGlobalVirtualStore: false
+allowBuilds:
+  esbuild: false
+  sharp: false
+  workerd: false
