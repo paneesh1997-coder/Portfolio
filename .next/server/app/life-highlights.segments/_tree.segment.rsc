@@ -1,5 +1,5 @@
-:HL["/_next/static/chunks/1s9xi1o4alkyr.css","style"]
+:HL["/YOUR_REPO/_next/static/chunks/00d9cv3mz6gxm.css","style"]
 :HL["/assets/frame-2147224091.svg","image"]
 2:[["children",{"s":"__PAGE__","h":160}]]
 1:[["children",{"s":"life-highlights","h":96,"c":"$Q2"}]]
-0:{"b":"on4lml1DcNg_65mXXFdar","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"q6OrmzQMZPBcIqJuWA1cz","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

@@ -1,8 +1,8 @@
-:HL["/_next/static/chunks/1s9xi1o4alkyr.css","style"]
+:HL["/YOUR_REPO/_next/static/chunks/00d9cv3mz6gxm.css","style"]
 :HL["/assets/frame-2147224091.svg","image"]
 :HL["/assets/arrow-red.svg","image"]
 :HL["/assets/arrow-white.svg","image"]
 3:[["children",{"s":"__PAGE__","h":160}]]
 2:[["children",{"s":"ihna","h":96,"c":"$Q3"}]]
 1:[["children",{"s":"works","h":96,"c":"$Q2"}]]
-0:{"b":"on4lml1DcNg_65mXXFdar","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
+0:{"b":"q6OrmzQMZPBcIqJuWA1cz","t":{"t":{"s":"","h":80,"c":"$Q1"}}}

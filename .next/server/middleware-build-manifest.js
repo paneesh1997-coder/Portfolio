@@ -7,22 +7,22 @@ globalThis.__BUILD_MANIFEST = {
     "static/chunks/0cz1d0mv5g_q7.js"
   ],
   "lowPriorityFiles": [
-    "static/on4lml1DcNg_65mXXFdar/_buildManifest.js",
-    "static/on4lml1DcNg_65mXXFdar/_ssgManifest.js",
-    "static/on4lml1DcNg_65mXXFdar/_clientMiddlewareManifest.js"
+    "static/q6OrmzQMZPBcIqJuWA1cz/_buildManifest.js",
+    "static/q6OrmzQMZPBcIqJuWA1cz/_ssgManifest.js",
+    "static/q6OrmzQMZPBcIqJuWA1cz/_clientMiddlewareManifest.js"
   ],
   "rootMainFiles": [
     "static/chunks/12jg43355bbw3.js",
-    "static/chunks/2yhxmicpz060j.js",
+    "static/chunks/2o-2a64k6l7uo.js",
     "static/chunks/3dmm3v_fq28gc.js",
-    "static/chunks/turbopack-3-ry682tkyiqk.js"
+    "static/chunks/turbopack-0koonvw-56d3h.js"
   ],
   "rootMainFilesTree": {},
   "pagesChunkGroupBootstrapParams": {
     "/page": {
       "otherChunks": [
         "static/chunks/12jg43355bbw3.js",
-        "static/chunks/2yhxmicpz060j.js",
+        "static/chunks/2o-2a64k6l7uo.js",
         "static/chunks/3dmm3v_fq28gc.js"
       ],
       "runtimeModuleIds": [
@@ -32,7 +32,7 @@ globalThis.__BUILD_MANIFEST = {
     "/_not-found/page": {
       "otherChunks": [
         "static/chunks/12jg43355bbw3.js",
-        "static/chunks/2yhxmicpz060j.js",
+        "static/chunks/2o-2a64k6l7uo.js",
         "static/chunks/3dmm3v_fq28gc.js"
       ],
       "runtimeModuleIds": [
@@ -42,7 +42,7 @@ globalThis.__BUILD_MANIFEST = {
     "/_global-error/page": {
       "otherChunks": [
         "static/chunks/12jg43355bbw3.js",
-        "static/chunks/2yhxmicpz060j.js",
+        "static/chunks/2o-2a64k6l7uo.js",
         "static/chunks/3dmm3v_fq28gc.js"
       ],
       "runtimeModuleIds": [
@@ -52,7 +52,7 @@ globalThis.__BUILD_MANIFEST = {
     "/about/page": {
       "otherChunks": [
         "static/chunks/12jg43355bbw3.js",
-        "static/chunks/2yhxmicpz060j.js",
+        "static/chunks/2o-2a64k6l7uo.js",
         "static/chunks/3dmm3v_fq28gc.js"
       ],
       "runtimeModuleIds": [
@@ -62,7 +62,7 @@ globalThis.__BUILD_MANIFEST = {
     "/contact/page": {
       "otherChunks": [
         "static/chunks/12jg43355bbw3.js",
-        "static/chunks/2yhxmicpz060j.js",
+        "static/chunks/2o-2a64k6l7uo.js",
         "static/chunks/3dmm3v_fq28gc.js"
       ],
       "runtimeModuleIds": [
@@ -72,7 +72,7 @@ globalThis.__BUILD_MANIFEST = {
     "/life-highlights/page": {
       "otherChunks": [
         "static/chunks/12jg43355bbw3.js",
-        "static/chunks/2yhxmicpz060j.js",
+        "static/chunks/2o-2a64k6l7uo.js",
         "static/chunks/3dmm3v_fq28gc.js"
       ],
       "runtimeModuleIds": [
@@ -82,7 +82,7 @@ globalThis.__BUILD_MANIFEST = {
     "/playground/page": {
       "otherChunks": [
         "static/chunks/12jg43355bbw3.js",
-        "static/chunks/2yhxmicpz060j.js",
+        "static/chunks/2o-2a64k6l7uo.js",
         "static/chunks/3dmm3v_fq28gc.js"
       ],
       "runtimeModuleIds": [
@@ -92,7 +92,7 @@ globalThis.__BUILD_MANIFEST = {
     "/works/page": {
       "otherChunks": [
         "static/chunks/12jg43355bbw3.js",
-        "static/chunks/2yhxmicpz060j.js",
+        "static/chunks/2o-2a64k6l7uo.js",
         "static/chunks/3dmm3v_fq28gc.js"
       ],
       "runtimeModuleIds": [
@@ -102,7 +102,7 @@ globalThis.__BUILD_MANIFEST = {
     "/works/clinsoft/page": {
       "otherChunks": [
         "static/chunks/12jg43355bbw3.js",
-        "static/chunks/2yhxmicpz060j.js",
+        "static/chunks/2o-2a64k6l7uo.js",
         "static/chunks/3dmm3v_fq28gc.js"
       ],
       "runtimeModuleIds": [
@@ -112,7 +112,7 @@ globalThis.__BUILD_MANIFEST = {
     "/works/ihna/page": {
       "otherChunks": [
         "static/chunks/12jg43355bbw3.js",
-        "static/chunks/2yhxmicpz060j.js",
+        "static/chunks/2o-2a64k6l7uo.js",
         "static/chunks/3dmm3v_fq28gc.js"
       ],
       "runtimeModuleIds": [
@@ -122,7 +122,7 @@ globalThis.__BUILD_MANIFEST = {
     "/works/metaveo/page": {
       "otherChunks": [
         "static/chunks/12jg43355bbw3.js",
-        "static/chunks/2yhxmicpz060j.js",
+        "static/chunks/2o-2a64k6l7uo.js",
         "static/chunks/3dmm3v_fq28gc.js"
       ],
       "runtimeModuleIds": [

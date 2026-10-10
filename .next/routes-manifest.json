@@ -3,8 +3,17 @@
   "pages404": true,
   "appType": "app",
   "caseSensitive": false,
-  "basePath": "",
+  "basePath": "/YOUR_REPO",
   "redirects": [
+    {
+      "source": "/YOUR_REPO/",
+      "destination": "/YOUR_REPO",
+      "basePath": false,
+      "internal": true,
+      "priority": true,
+      "statusCode": 308,
+      "regex": "^/YOUR_REPO/$"
+    },
     {
       "source": "/:path+/",
       "destination": "/:path+",
