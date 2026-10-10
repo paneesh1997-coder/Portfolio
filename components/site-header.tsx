@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { usePathname } from 'next/navigation';
 import { portfolio } from '@/lib/portfolio';
 import { BrandLogo } from '@/components/brand-logo';
+import Link from 'next/link';
 export function SiteHeader() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
