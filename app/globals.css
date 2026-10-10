@@ -1,10 +1,10 @@
 @import 'tailwindcss';
 @import 'tw-animate-css';
 @import 'shadcn/tailwind.css';
-@font-face { font-family: 'NType 82'; src: url('/fonts/NType82-Regular.otf') format('opentype'); font-weight: 400; font-style: normal; font-display: swap; }
-@font-face { font-family: 'IBM Plex Sans'; src: url('/fonts/IBMPlexSans-Light.woff2') format('woff2'); font-weight: 300; font-style: normal; font-display: swap; }
-@font-face { font-family: 'IBM Plex Sans'; src: url('/fonts/IBMPlexSans-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
-@font-face { font-family: 'IBM Plex Sans'; src: url('/fonts/IBMPlexSans-Medium.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'NType 82'; src: url('./fonts/NType82-Regular.otf') format('opentype'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'IBM Plex Sans'; src: url('./fonts/IBMPlexSans-Light.woff2') format('woff2'); font-weight: 300; font-style: normal; font-display: swap; }
+@font-face { font-family: 'IBM Plex Sans'; src: url('./fonts/IBMPlexSans-Regular.woff2') format('woff2'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'IBM Plex Sans'; src: url('./fonts/IBMPlexSans-Medium.woff2') format('woff2'); font-weight: 500; font-style: normal; font-display: swap; }
 :root {
   --background: #ebebeb; --foreground: #1d1d1d; --card: #fff; --card-foreground: #1d1d1d;
   --popover: #fff; --popover-foreground: #1d1d1d; --primary: #fd1e1e; --primary-foreground: #fff;
