@@ -1,0 +1,3 @@
+module.exports=[66188,a=>{"use strict";var b=a.i(7997),c=a.i(93951);a.s(["default",0,function(){return(0,b.jsxs)("main",{id:"main-content",className:"not-found shell",children:[(0,b.jsx)(c.S,{children:"404 / A little detour"}),(0,b.jsxs)("h1",{children:["This page doesn’t",(0,b.jsx)("br",{}),"quite make sense",(0,b.jsx)(c.U,{})]}),(0,b.jsx)("p",{children:"Let’s get you back to familiar ground."}),(0,b.jsx)(c.v,{href:"/",children:"Back to home"})]})}])},2894,function(a){a.n(a.i(66188))}];
+
+//# sourceMappingURL=app_not-found_tsx_1gi3i27gi6b-4._.js.map

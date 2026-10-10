@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///D:/Project/Portfolio/app/not-found.tsx"],"sourcesContent":["import { Eyebrow, PillLink, Square } from '@/components/portfolio';\r\nexport default function NotFound() { return <main id=\"main-content\" className=\"not-found shell\"><Eyebrow>404 / A little detour</Eyebrow><h1>This page doesn’t<br />quite make sense<Square /></h1><p>Let’s get you back to familiar ground.</p><PillLink href=\"/\">Back to home</PillLink></main>; }\r\n"],"names":["NotFound","id","className","href"],"mappings":";;;;;AAAA;;;AACe,SAASA;IAAa,qBAAO,8OAAC;QAAKC,IAAG;QAAeC,WAAU;;0BAAkB,8OAAC,mIAAO;0BAAC;;;;;;0BAA+B,8OAAC;;oBAAG;kCAAiB,8OAAC;;;;;oBAAK;kCAAgB,8OAAC,kIAAM;;;;;;;;;;;0BAAQ,8OAAC;0BAAE;;;;;;0BAA0C,8OAAC,oIAAQ;gBAACC,MAAK;0BAAI;;;;;;;;;;;;AAAgC"}}]
+}

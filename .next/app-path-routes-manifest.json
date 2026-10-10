@@ -1,0 +1,13 @@
+{
+  "/_global-error/page": "/_global-error",
+  "/_not-found/page": "/_not-found",
+  "/about/page": "/about",
+  "/contact/page": "/contact",
+  "/life-highlights/page": "/life-highlights",
+  "/page": "/",
+  "/playground/page": "/playground",
+  "/works/clinsoft/page": "/works/clinsoft",
+  "/works/ihna/page": "/works/ihna",
+  "/works/metaveo/page": "/works/metaveo",
+  "/works/page": "/works"
+}

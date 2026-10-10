@@ -1,0 +1,28 @@
+{
+  "status": 307,
+  "headers": {
+    "location": "https://youtu.be/-XFfWOboLfw?si=P0iD9JoRcIWtz_VR",
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/life-highlights/layout,_N_T_/life-highlights/page,_N_T_/life-highlights"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/life-highlights/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 64,
+    "slots": {
+      "children": {
+        "hints": 96,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  }
+}
