@@ -7,7 +7,7 @@ import Link from 'next/link';
 export function SiteHeader() {
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
-  const links = [{ href: 'Portfolio/', label: 'Home', newTab: false }, { href: 'Portfolio/works', label: 'Works', newTab: false }, { href: 'Portfolio/about', label: 'About', newTab: false }, { href: portfolio.resumeUrl, label: 'Resume', newTab: true }];
+  const links = [{ href: 'Portfolio/', label: 'Home', newTab: false }, { href: '/works', label: 'Works', newTab: false }, { href: '/about', label: 'About', newTab: false }, { href: portfolio.resumeUrl, label: 'Resume', newTab: true }];
   return (
     <header className={`site-header${menuOpen ? ' menu-open' : ''}`}>
       <a className="wordmark" href="/" aria-label="Make It Make Sense — home"><BrandLogo /></a>
