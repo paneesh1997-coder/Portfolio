@@ -4,7 +4,7 @@ import { Eyebrow, PillLink, Square } from '@/components/portfolio';
 export const metadata: Metadata = { title: 'About', description: 'The winding path from sales, hospitality, and freelance music to product design. Meet Aneesh.' };
 
 const experience = [
-  { company: 'Metaveo', href: 'https://www.metaveo.ai/', role: 'UI/UX Designer and Brand Strategist', dates: 'April 2026 — Present', duration: '6 months' },
+  { company: 'Metaveo', href: 'https://www.metaveo.ai/', role: 'UI/UX Designer and Brand Strategist', dates: 'April 2026 — Present', duration: '7 months' },
   { company: 'HCI Australia', href: 'https://www.hcigroup.com.au/', role: 'UI/UX Designer', dates: 'Jan 2024 — March 2026', duration: '2.3 years' },
   { company: 'Zoople Technologies', href: 'https://zoople.in/', role: 'UI/UX Intern', dates: 'Aug — Sept 2023', duration: '2 months' },
 ];

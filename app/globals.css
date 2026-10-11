@@ -539,8 +539,8 @@ body:has(.playground-dialog) [data-slot="dialog-overlay"] { z-index: 109; backgr
 }
 
 @media (max-width: 800px) {
-  .site-header { flex-direction: row; justify-content: space-between; gap: 10px; width: calc(100% - 32px); }
-  .wordmark { min-width: 0; flex: 1 1 auto; padding-inline: 22px; }
+  .site-header { flex-direction: row; justify-content: center; gap: 10px; width: calc(100% - 32px); }
+  .wordmark { min-width: 0; padding-inline: 22px; }
   .mobile-menu-toggle { display: grid; flex: 0 0 54px; place-items: center; width: 54px; height: 54px; padding: 0; border: 0; border-radius: 50%; background: #fff; color: var(--ink); box-shadow: 0 4px 12px rgb(0 0 0 / 18%); cursor: pointer; }
   .mobile-menu-toggle:hover { color: var(--red-text); }
   .main-nav { position: absolute; top: calc(100% + 10px); right: 0; display: flex; flex-direction: column; align-items: stretch; justify-content: flex-start; width: min(220px, calc(100vw - 32px)); max-width: none; height: auto; gap: 4px; padding: 10px; border-radius: 14px; box-shadow: 0 14px 32px rgb(0 0 0 / 18%); opacity: 0; visibility: hidden; transform: translateY(-8px); pointer-events: none; transition: opacity .2s ease, transform .2s ease, visibility .2s ease; }
