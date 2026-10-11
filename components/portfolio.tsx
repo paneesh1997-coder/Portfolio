@@ -25,7 +25,7 @@ export function WorkRows({ excludeSlug }: { excludeSlug?: string } = {}) {
     {caseStudies.filter((work) => work.slug !== excludeSlug).map((work) =>
       <article className="work-row" key={work.slug}>
         <div className="work-meta"><Eyebrow>{work.name}</Eyebrow><p className="work-role">{work.role}</p></div>
-        <div className="work-copy"><h3><a href={`/works/${work.slug}`}>{work.title}</a></h3><p>{work.description}</p><a className="text-link case-read-link" href={`Portfolio/works/${work.slug}`}>Read case study<Arrow /><span className="sr-only">: {work.name}</span></a></div>
+        <div className="work-copy"><h3><a href={`/works/${work.slug}`}>{work.title}</a></h3><p>{work.description}</p><a className="text-link case-read-link" href={`/works/${work.slug}`}>Read case study<Arrow /><span className="sr-only">: {work.name}</span></a></div>
         <a href={`/works/${work.slug}`} className="work-image-link" aria-label={`Read the ${work.name} case study`}><CaseStudyVisualFrame visual={work.cardCover ?? work.cover} compact /></a>
       </article>)}
   </div>;
