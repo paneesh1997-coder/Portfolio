@@ -7,7 +7,7 @@ import { FlowLink } from '@/components/ui/flow-button';
 
 export function Square() { return <span className="red-square" aria-hidden="true" />; }
 export function Eyebrow({ children }: { children: React.ReactNode }) { return <p className="eyebrow">&lt;{children}&gt;</p>; }
-export function Arrow({ red = false }: { red?: boolean }) { return <img className="arrow-icon" src={`/assets/arrow-${red ? 'red' : 'white'}.svg`} width="17" height="15" alt="" aria-hidden="true" />; }
+export function Arrow({ red = false }: { red?: boolean }) { return <img className="arrow-icon" src={`./assets/arrow-${red ? 'red' : 'white'}.svg`} width="17" height="15" alt="" aria-hidden="true" />; }
 export function PillLink({ href, children, light = false }: { href: string; children: React.ReactNode; light?: boolean }) { return <FlowLink className={`pill-link${light ? ' pill-light' : ''}`} href={href} arrowTone={light ? 'red' : 'white'}>{children}</FlowLink>; }
 
 export function Story({ standalone = false }: { standalone?: boolean }) {
@@ -25,7 +25,7 @@ export function WorkRows({ excludeSlug }: { excludeSlug?: string } = {}) {
     {caseStudies.filter((work) => work.slug !== excludeSlug).map((work) =>
       <article className="work-row" key={work.slug}>
         <div className="work-meta"><Eyebrow>{work.name}</Eyebrow><p className="work-role">{work.role}</p></div>
-        <div className="work-copy"><h3><a href={`/works/${work.slug}`}>{work.title}</a></h3><p>{work.description}</p><a className="text-link case-read-link" href={`/works/${work.slug}`}>Read case study<Arrow /><span className="sr-only">: {work.name}</span></a></div>
+        <div className="work-copy"><h3><a href={`/works/${work.slug}`}>{work.title}</a></h3><p>{work.description}</p><a className="text-link case-read-link" href={`Portfolio/works/${work.slug}`}>Read case study<Arrow /><span className="sr-only">: {work.name}</span></a></div>
         <a href={`/works/${work.slug}`} className="work-image-link" aria-label={`Read the ${work.name} case study`}><CaseStudyVisualFrame visual={work.cardCover ?? work.cover} compact /></a>
       </article>)}
   </div>;
