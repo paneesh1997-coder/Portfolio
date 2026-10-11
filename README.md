@@ -13,6 +13,39 @@ pnpm dev
 
 Run `pnpm build` to check the production build.
 
+## Deployment paths
+
+Internal links always use Next.js `Link` with an application path:
+
+```tsx
+import Link from 'next/link';
+
+<Link href="/works">Works</Link>
+```
+
+`PillLink` and `FlowLink` also handle internal paths automatically. Do not add
+`/Portfolio` to page links. External URLs and links such as `#main-content`,
+`mailto:`, and `tel:` can use normal anchors.
+
+`NEXT_PUBLIC_BASE_PATH` controls the deployment prefix at build time. It defaults
+to an empty string, so local development runs at `http://localhost:3000/`.
+The GitHub Pages workflow sets it from the Pages configuration (for example,
+`/Portfolio` for a repository site, or empty for a root/custom-domain site).
+Changing the prefix requires rebuilding.
+
+To build manually for the repository path in PowerShell:
+
+```powershell
+$env:NEXT_PUBLIC_BASE_PATH = '/Portfolio'
+pnpm build
+Remove-Item Env:NEXT_PUBLIC_BASE_PATH
+```
+
+For files in `public/`, use `publicAssetPath('/assets/example.webp')` from
+`lib/paths.ts` in image sources or other raw file URLs. CSS references use
+`../public/...` so Next.js bundles them with the correct deployment path.
+The static export is generated in `out/`.
+
 ## Pages
 
 - `/` — introduction, story, case studies, and interview highlight.

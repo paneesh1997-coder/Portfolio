@@ -1,3 +1,5 @@
+import { publicAssetPath } from '@/lib/paths';
+import Link from 'next/link';
 import { BrandLogo } from '@/components/brand-logo';
 import { portfolio, story } from '@/lib/portfolio';
 import { caseStudies } from '@/lib/case-studies';
@@ -7,7 +9,7 @@ import { FlowLink } from '@/components/ui/flow-button';
 
 export function Square() { return <span className="red-square" aria-hidden="true" />; }
 export function Eyebrow({ children }: { children: React.ReactNode }) { return <p className="eyebrow">&lt;{children}&gt;</p>; }
-export function Arrow({ red = false }: { red?: boolean }) { return <img className="arrow-icon" src={`./assets/arrow-${red ? 'red' : 'white'}.svg`} width="17" height="15" alt="" aria-hidden="true" />; }
+export function Arrow({ red = false }: { red?: boolean }) { return <img className="arrow-icon" src={publicAssetPath(`/assets/arrow-${red ? 'red' : 'white'}.svg`)} width="17" height="15" alt="" aria-hidden="true" />; }
 export function PillLink({ href, children, light = false }: { href: string; children: React.ReactNode; light?: boolean }) { return <FlowLink className={`pill-link${light ? ' pill-light' : ''}`} href={href} arrowTone={light ? 'red' : 'white'}>{children}</FlowLink>; }
 
 export function Story({ standalone = false }: { standalone?: boolean }) {
@@ -25,8 +27,8 @@ export function WorkRows({ excludeSlug }: { excludeSlug?: string } = {}) {
     {caseStudies.filter((work) => work.slug !== excludeSlug).map((work) =>
       <article className="work-row" key={work.slug}>
         <div className="work-meta"><Eyebrow>{work.name}</Eyebrow><p className="work-role">{work.role}</p></div>
-        <div className="work-copy"><h3><a href={`/works/${work.slug}`}>{work.title}</a></h3><p>{work.description}</p><a className="text-link case-read-link" href={`/works/${work.slug}`}>Read case study<Arrow /><span className="sr-only">: {work.name}</span></a></div>
-        <a href={`/works/${work.slug}`} className="work-image-link" aria-label={`Read the ${work.name} case study`}><CaseStudyVisualFrame visual={work.cardCover ?? work.cover} compact /></a>
+        <div className="work-copy"><h3><Link href={`/works/${work.slug}`}>{work.title}</Link></h3><p>{work.description}</p><Link className="text-link case-read-link" href={`/works/${work.slug}`}>Read case study<Arrow /><span className="sr-only">: {work.name}</span></Link></div>
+        <Link href={`/works/${work.slug}`} className="work-image-link" aria-label={`Read the ${work.name} case study`}><CaseStudyVisualFrame visual={work.cardCover ?? work.cover} compact /></Link>
       </article>)}
   </div>;
 }
@@ -40,5 +42,5 @@ export function HighlightsBanner() {
 }
 
 export function SiteFooter() {
-  return <footer className="site-footer"><div className="footer-inner"><div className="footer-invitation"><h2>Have anything in mind?</h2><p>Complex ideas, new possibilities, or a good conversation.<br />Let’s make it make sense.</p><PillLink href="/Portfolio/contact" light>Get in touch</PillLink></div><nav className="footer-nav" aria-label="Explore"><a href="/Portfolio/works">Works</a><a href="/Portfolio/about">About</a><a href={portfolio.resumeUrl} target="_blank" rel="noopener noreferrer" aria-label="Resume (opens in a new tab)">Resume</a></nav><div className="footer-socials" aria-label="Social profiles">{portfolio.socials.map((social) => social.url ? <a key={social.name} href={social.url} target="_blank" rel="noreferrer">{social.name} ↗</a> : <span key={social.name}>{social.name}</span>)}</div></div><div className="footer-bottom"><a href="/" aria-label="Make It Make Sense — home"><BrandLogo white /></a><p>© {new Date().getFullYear()} Aneesh</p><a href="#main-content">Back to top ↑</a></div></footer>;
+  return <footer className="site-footer"><div className="footer-inner"><div className="footer-invitation"><h2>Have anything in mind?</h2><p>Complex ideas, new possibilities, or a good conversation.<br />Let’s make it make sense.</p><PillLink href="/contact" light>Get in touch</PillLink></div><nav className="footer-nav" aria-label="Explore"><Link href="/works">Works</Link><Link href="/about">About</Link><a href={portfolio.resumeUrl} target="_blank" rel="noopener noreferrer" aria-label="Resume (opens in a new tab)">Resume</a></nav><div className="footer-socials" aria-label="Social profiles">{portfolio.socials.map((social) => social.url ? <a key={social.name} href={social.url} target="_blank" rel="noreferrer">{social.name} ↗</a> : <span key={social.name}>{social.name}</span>)}</div></div><div className="footer-bottom"><Link href="/" aria-label="Make It Make Sense — home"><BrandLogo white /></Link><p>© {new Date().getFullYear()} Aneesh</p><a href="#main-content">Back to top ↑</a></div></footer>;
 }

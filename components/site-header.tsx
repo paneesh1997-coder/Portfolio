@@ -21,14 +21,8 @@ export function SiteHeader() {
     },
   ];
 
-  // Remove the GitHub Pages base path when checking active routes.
-  const basePath = '/Portfolio';
-  const currentPath =
-    pathname === basePath
-      ? '/'
-      : pathname.startsWith(`${basePath}/`)
-        ? pathname.slice(basePath.length)
-        : pathname;
+  // usePathname already excludes basePath; normalize the exported trailing slash.
+  const currentPath = pathname.replace(/\/$/, '') || '/';
 
   return (
     <header className={`site-header${menuOpen ? ' menu-open' : ''}`}>

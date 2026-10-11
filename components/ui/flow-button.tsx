@@ -2,11 +2,13 @@
 
 import type { AnchorHTMLAttributes, ButtonHTMLAttributes, ReactNode } from 'react';
 import { cn } from '@/lib/utils';
+import Link from 'next/link';
+import { publicAssetPath } from '@/lib/paths';
 
 type ArrowTone = 'red' | 'white';
 
 function FlowArrow({ tone, className }: { tone: ArrowTone; className: string }) {
-  return <img className={cn('flow-cta-arrow', className)} src={`./assets/arrow-${tone}.svg`} width="17" height="15" alt="" aria-hidden="true" />;
+  return <img className={cn('flow-cta-arrow', className)} src={publicAssetPath(`/assets/arrow-${tone}.svg`)} width="17" height="15" alt="" aria-hidden="true" />;
 }
 
 function FlowContent({ children, arrowTone, hoverArrowTone }: { children: ReactNode; arrowTone: ArrowTone; hoverArrowTone: ArrowTone }) {
@@ -15,8 +17,12 @@ function FlowContent({ children, arrowTone, hoverArrowTone }: { children: ReactN
 
 type FlowLinkProps = AnchorHTMLAttributes<HTMLAnchorElement> & { children: ReactNode; arrowTone?: ArrowTone; hoverArrowTone?: ArrowTone };
 
-export function FlowLink({ children, className, arrowTone = 'red', hoverArrowTone = 'white', ...props }: FlowLinkProps) {
-  return <a className={cn('flow-cta', className)} {...props}><FlowContent arrowTone={arrowTone} hoverArrowTone={hoverArrowTone}>{children}</FlowContent></a>;
+export function FlowLink({ children, className, href, arrowTone = 'red', hoverArrowTone = 'white', ...props }: FlowLinkProps) {
+  const content = <FlowContent arrowTone={arrowTone} hoverArrowTone={hoverArrowTone}>{children}</FlowContent>;
+  if (href?.startsWith('/') && !href.startsWith('//')) {
+    return <Link className={cn('flow-cta', className)} href={href} {...props}>{content}</Link>;
+  }
+  return <a className={cn('flow-cta', className)} href={href} {...props}>{content}</a>;
 }
 
 type FlowButtonProps = ButtonHTMLAttributes<HTMLButtonElement> & { children: ReactNode; arrowTone?: ArrowTone; hoverArrowTone?: ArrowTone };
