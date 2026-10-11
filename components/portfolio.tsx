@@ -9,7 +9,7 @@ import { FlowLink } from '@/components/ui/flow-button';
 
 export function Square() { return <span className="red-square" aria-hidden="true" />; }
 export function Eyebrow({ children }: { children: React.ReactNode }) { return <p className="eyebrow">&lt;{children}&gt;</p>; }
-export function Arrow({ red = false }: { red?: boolean }) { return <img className="arrow-icon" src={publicAssetPath(`/assets/arrow-${red ? 'red' : 'white'}.svg`)} width="17" height="15" alt="" aria-hidden="true" />; }
+export function Arrow({ red = false }: { red?: boolean }) { return <img className="arrow-icon" src={publicAssetPath(`./assets/arrow-${red ? 'red' : 'white'}.svg`)} width="17" height="15" alt="" aria-hidden="true" />; }
 export function PillLink({ href, children, light = false }: { href: string; children: React.ReactNode; light?: boolean }) { return <FlowLink className={`pill-link${light ? ' pill-light' : ''}`} href={href} arrowTone={light ? 'red' : 'white'}>{children}</FlowLink>; }
 
 export function Story({ standalone = false }: { standalone?: boolean }) {

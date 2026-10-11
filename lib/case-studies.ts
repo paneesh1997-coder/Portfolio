@@ -51,10 +51,10 @@ export const caseStudies: CaseStudy[] = [
     cover: {
       id: 'clinsoft-cover',
       label: 'Clinsoft mobile interface system',
-      src: '/assets/case-studies/clinsoft/mobile-system.webp',
+      src: './assets/case-studies/clinsoft/mobile-system.webp',
       alt: 'A wide collection of Clinsoft mobile application screens.',
     },
-    cardCover: { id: 'clinsoft-card-cover', label: 'Clinsoft mobile interface system', src: '/assets/case-studies/clinsoft/mobile-system.webp', alt: 'A wide collection of Clinsoft mobile application screens.' },
+    cardCover: { id: 'clinsoft-card-cover', label: 'Clinsoft mobile interface system', src: './assets/case-studies/clinsoft/mobile-system.webp', alt: 'A wide collection of Clinsoft mobile application screens.' },
     sections: [
       {
         id: 'context', eyebrow: 'The context', title: 'The origin story',
@@ -63,7 +63,7 @@ export const caseStudies: CaseStudy[] = [
           { title: 'The Pivot', text: 'We realized that if this solved our pain points as a major Australian education provider, it would solve them for everyone else.' },
           { title: 'The Goal', text: 'Transform this functional internal tool into Clinsoft.ai, a polished, public-facing SaaS product tailored specifically for RTOs (Registered Training Organisations) and VETs across Australia.' },
         ],
-        visuals: [{ id: 'clinsoft-logo', label: 'Clinsoft identity', src: '/assets/case-studies/clinsoft/logo.webp', alt: 'The Clinsoft logo on a dark gradient background.' }],
+        visuals: [{ id: 'clinsoft-logo', label: 'Clinsoft identity', src: './assets/case-studies/clinsoft/logo.webp', alt: 'The Clinsoft logo on a dark gradient background.' }],
       },
       {
         id: 'understanding', eyebrow: 'Understanding the user', title: 'Close the UX gap',
@@ -73,7 +73,7 @@ export const caseStudies: CaseStudy[] = [
           { title: 'The UX Gap', text: 'The existing interface was utilitarian. It lacked the intuitive flow and aesthetic polish required for a competitive SaaS market where user experience is a buying factor.' },
           { title: 'The Identity Void', text: 'We had no public brand. No compelling logo, no landing page, and no voice. We were entering a market with zero momentum.' },
         ],
-        visuals: [{ id: 'clinsoft-website', label: 'Clinsoft marketing website system', src: '/assets/case-studies/clinsoft/website.webp', alt: 'A collage of Clinsoft marketing website pages and product features.' }],
+        visuals: [{ id: 'clinsoft-website', label: 'Clinsoft marketing website system', src: './assets/case-studies/clinsoft/website.webp', alt: 'A collage of Clinsoft marketing website pages and product features.' }],
       },
       {
         id: 'architecture', eyebrow: 'Information architecture', title: 'Designing the launch',
@@ -83,8 +83,8 @@ export const caseStudies: CaseStudy[] = [
           { title: 'Phase 2: The Pilot Campaign (Australia-Wide)', text: 'We could not just turn the lights on and hope people showed up. I spearheaded the marketing collateral for the November Pilot Launch, targeting RTOs nationwide. I crafted the content and visuals for targeted email campaigns and designed high-conversion social media assets and a dedicated landing page optimized to capture leads.' },
         ],
         visuals: [
-          { id: 'clinsoft-brand-poster', label: 'Clinsoft brand expression', src: '/assets/case-studies/clinsoft/brand-poster.webp', alt: 'Clinsoft brand poster reading One App. Total Control.' },
-          { id: 'clinsoft-brand-poster-blue', label: 'Clinsoft placement proposition', src: '/assets/case-studies/clinsoft/brand-poster-blue.webp', alt: 'Blue Clinsoft campaign poster about placement management.' },
+          { id: 'clinsoft-brand-poster', label: 'Clinsoft brand expression', src: './assets/case-studies/clinsoft/brand-poster.webp', alt: 'Clinsoft brand poster reading One App. Total Control.' },
+          { id: 'clinsoft-brand-poster-blue', label: 'Clinsoft placement proposition', src: './assets/case-studies/clinsoft/brand-poster-blue.webp', alt: 'Blue Clinsoft campaign poster about placement management.' },
         ],
       },
       {
@@ -98,8 +98,8 @@ export const caseStudies: CaseStudy[] = [
           { title: 'Trust Signals', text: 'Integrated testimonials and Built by Educators messaging to leverage our IHNA heritage.' },
         ],
         visuals: [
-          { id: 'clinsoft-mobile-feature', label: 'Clinsoft student mobile experience', src: '/assets/case-studies/clinsoft/mobile-feature.webp', alt: 'A Clinsoft mobile dashboard displayed on a phone held in one hand.' },
-          { id: 'clinsoft-mobile-system', label: 'Clinsoft project visual', src: '/assets/case-studies/clinsoft/cover.webp', alt: 'A woman smiling during a video call, shown in a Clinsoft product mockup.' },
+          { id: 'clinsoft-mobile-feature', label: 'Clinsoft student mobile experience', src: './assets/case-studies/clinsoft/mobile-feature.webp', alt: 'A Clinsoft mobile dashboard displayed on a phone held in one hand.' },
+          { id: 'clinsoft-mobile-system', label: 'Clinsoft project visual', src: './assets/case-studies/clinsoft/cover.webp', alt: 'A woman smiling during a video call, shown in a Clinsoft product mockup.' },
         ],
       },
       {
@@ -116,8 +116,8 @@ export const caseStudies: CaseStudy[] = [
     scope: 'UX strategy · Information architecture · Design system',
     date: 'Mar 2025', client: 'IHNA Australia', liveUrl: 'https://uat.hci.edu.au',
     summary: "The Institute of Health and Nursing Australia stands as one of Australia's premier providers of nursing and healthcare education. Its academic reputation was top-tier, but its digital presence lagged significantly behind modern standards.",
-    cover: { id: 'ihna-cover', label: 'IHNA Australia project cover', src: '/assets/case-studies/ihna/ihna-banner-v2.png', alt: 'Collage of IHNA website pages featuring course information, student profiles, and career content.' },
-    cardCover: { id: 'ihna-card-cover', label: 'IHNA modular interface', src: '/assets/case-studies/ihna/system-c.webp', alt: 'A laptop displaying the IHNA Australia website experience.' },
+    cover: { id: 'ihna-cover', label: 'IHNA Australia project cover', src: './assets/case-studies/ihna/ihna-banner-v2.png', alt: 'Collage of IHNA website pages featuring course information, student profiles, and career content.' },
+    cardCover: { id: 'ihna-card-cover', label: 'IHNA modular interface', src: './assets/case-studies/ihna/system-c.webp', alt: 'A laptop displaying the IHNA Australia website experience.' },
     sections: [
       {
         id: 'context', eyebrow: 'The context', title: 'A respected institution with a legacy website',
@@ -128,7 +128,7 @@ export const caseStudies: CaseStudy[] = [
           { title: 'Navigation Friction', text: 'The user pathway to Apply was convoluted and non-linear. This friction in the conversion funnel led to measurable drop-offs, as interested applicants abandoned the process due to complexity.' },
           { title: 'The Mission', text: 'The objective was twofold: to completely redesign the core website for immediate usability improvements and to build a robust, modular Design System to future-proof the brand and streamline subsequent digital development.' },
         ],
-        visuals: [{ id: 'ihna-previous-design', label: 'IHNA Australia previous website design', src: '/assets/case-studies/ihna/previous-design.png', alt: 'Previous IHNA Australia website, shown as a long page collage of its homepage, course listings, student features, and footer.', caption: 'Previous design' }],
+        visuals: [{ id: 'ihna-previous-design', label: 'IHNA Australia previous website design', src: './assets/case-studies/ihna/previous-design.png', alt: 'Previous IHNA Australia website, shown as a long page collage of its homepage, course listings, student features, and footer.', caption: 'Previous design' }],
       },
       {
         id: 'understanding', eyebrow: 'Understanding the user', title: 'Two audiences, two sets of needs',
@@ -137,7 +137,7 @@ export const caseStudies: CaseStudy[] = [
           { title: 'Key Insight 1: The Two-Audience Dilemma', text: 'Domestic and International students possess vastly different informational needs. International students prioritize CRICOS codes, visa compliance, and English language requirements, whereas domestic students focus on VET Student Loans and local campus proximity. The legacy site conflated these datasets. We needed a mechanism to segment the experience instantaneously without managing two separate websites.' },
           { title: 'Key Insight 2: The Course vs. Career Gap', text: 'Students are not merely shopping for courses or qualifications; they are investing in career outcomes. Users search based on their ambition rather than the specific academic title. The search functionality and content hierarchy needed to bridge academic offerings and industry job roles.' },
         ],
-        visuals: [{ id: 'ihna-student-story', label: 'IHNA student experience', src: '/assets/case-studies/ihna/student-story.webp', alt: 'Two students sitting together against an orange wall.' }],
+        visuals: [{ id: 'ihna-student-story', label: 'IHNA student experience', src: './assets/case-studies/ihna/student-story.webp', alt: 'Two students sitting together against an orange wall.' }],
       },
       {
         id: 'architecture', eyebrow: 'Information architecture', title: 'Rules for the digital ecosystem',
@@ -148,15 +148,15 @@ export const caseStudies: CaseStudy[] = [
           { title: 'Banner Navigation', text: 'We elevated the primary navigation by moving course categories directly into the hero banner. By placing this interaction above the fold, we aligned the interface with the primary user goal: finding a course.' },
         ],
         visuals: [
-          { id: 'ihna-system-a', label: 'IHNA design system direction', src: '/assets/case-studies/ihna/system-a.webp', alt: 'IHNA digital experience design visual.' },
-          { id: 'ihna-system-b', label: 'IHNA website experience', src: '/assets/case-studies/ihna/system-b.webp', alt: 'IHNA website design visual.' },
-          { id: 'ihna-system-c', label: 'IHNA modular interface', src: '/assets/case-studies/ihna/system-c.webp', alt: 'IHNA modular website interface screens.' },
+          { id: 'ihna-system-a', label: 'IHNA design system direction', src: './assets/case-studies/ihna/system-a.webp', alt: 'IHNA digital experience design visual.' },
+          { id: 'ihna-system-b', label: 'IHNA website experience', src: './assets/case-studies/ihna/system-b.webp', alt: 'IHNA website design visual.' },
+          { id: 'ihna-system-c', label: 'IHNA modular interface', src: './assets/case-studies/ihna/system-c.webp', alt: 'IHNA modular website interface screens.' },
         ],
       },
       {
         id: 'process', eyebrow: 'The design process', title: 'Functional intelligence over decoration',
         quote: 'The final design prioritized functional intelligence over purely aesthetic upgrades. Based on the specific objectives defined during the research phase, we implemented high-impact features designed to reduce friction.',
-        visuals: [{ id: 'ihna-experience', label: 'IHNA experience direction', src: '/assets/case-studies/ihna/experience.avif', alt: 'An editorial interior image used in the IHNA experience direction.' }],
+        visuals: [{ id: 'ihna-experience', label: 'IHNA experience direction', src: './assets/case-studies/ihna/experience.avif', alt: 'An editorial interior image used in the IHNA experience direction.' }],
       },
       {
         id: 'outcome', eyebrow: 'Outcome', title: 'A student recruitment engine',
@@ -177,8 +177,8 @@ export const caseStudies: CaseStudy[] = [
     scope: 'UX architecture · Web design · Multi-vertical brand system',
     date: 'Nov 2025', client: 'Metaveo', liveUrl: 'https://www.metaveo.ai',
     summary: 'Metaveo is a newly established, forward-thinking design and marketing agency deliberately structured around three distinct, specialized business verticals: Productions, Automations, and Technologies.',
-    cover: { id: 'metaveo-cover', label: 'Metaveo project cover', src: '/assets/case-studies/metaveo/metaveo-hands.png', alt: 'Two glossy black hands reach toward each other in front of the word Metaveo.' },
-    cardCover: { id: 'metaveo-card-cover', label: 'Metaveo website system', src: '/assets/case-studies/metaveo/system-c.webp', alt: 'A large Metaveo website system presentation.' },
+    cover: { id: 'metaveo-cover', label: 'Metaveo project cover', src: './assets/case-studies/metaveo/metaveo-hands.png', alt: 'Two glossy black hands reach toward each other in front of the word Metaveo.' },
+    cardCover: { id: 'metaveo-card-cover', label: 'Metaveo website system', src: './assets/case-studies/metaveo/system-c.webp', alt: 'A large Metaveo website system presentation.' },
     sections: [
       {
         id: 'context', eyebrow: 'The context', title: 'Three specialist wings, one agency',
@@ -189,9 +189,9 @@ export const caseStudies: CaseStudy[] = [
           { title: 'Technologies', text: 'Custom software development, serving as the incubator for the flagship SaaS product, Clinsoft.' },
         ],
         visuals: [
-          { id: 'metaveo-vertical-a', label: 'Metaveo Productions visual language', src: '/assets/case-studies/metaveo/vertical-a.webp', alt: 'Metaveo Productions visual direction.' },
-          { id: 'metaveo-vertical-b', label: 'Metaveo Automations visual language', src: '/assets/case-studies/metaveo/vertical-b.webp', alt: 'Metaveo Automations visual direction.' },
-          { id: 'metaveo-vertical-c', label: 'Metaveo Technologies visual language', src: '/assets/case-studies/metaveo/vertical-c.webp', alt: 'Metaveo Technologies visual direction.' },
+          { id: 'metaveo-vertical-a', label: 'Metaveo Productions visual language', src: './assets/case-studies/metaveo/vertical-a.webp', alt: 'Metaveo Productions visual direction.' },
+          { id: 'metaveo-vertical-b', label: 'Metaveo Automations visual language', src: './assets/case-studies/metaveo/vertical-b.webp', alt: 'Metaveo Automations visual direction.' },
+          { id: 'metaveo-vertical-c', label: 'Metaveo Technologies visual language', src: './assets/case-studies/metaveo/vertical-c.webp', alt: 'Metaveo Technologies visual direction.' },
         ],
       },
       {
@@ -212,9 +212,9 @@ export const caseStudies: CaseStudy[] = [
         ],
         quote: "The Flagship Integration: A critical component of the Technologies wing involved promoting Clinsoft, the agency's first proprietary SaaS product. I engineered the flow to transition interested investors and users from Metaveo Technologies into the dedicated Clinsoft product funnel.",
         visuals: [
-          { id: 'metaveo-system-a', label: 'Metaveo visual system', src: '/assets/case-studies/metaveo/system-a.webp', alt: 'Metaveo digital ecosystem visual.' },
-          { id: 'metaveo-system-b', label: 'Metaveo brand system', src: '/assets/case-studies/metaveo/system-b.webp', alt: 'Metaveo brand and website system visual.' },
-          { id: 'metaveo-system-c', label: 'Metaveo website system', src: '/assets/case-studies/metaveo/system-c.webp', alt: 'A large Metaveo website system presentation.' },
+          { id: 'metaveo-system-a', label: 'Metaveo visual system', src: './assets/case-studies/metaveo/system-a.webp', alt: 'Metaveo digital ecosystem visual.' },
+          { id: 'metaveo-system-b', label: 'Metaveo brand system', src: './assets/case-studies/metaveo/system-b.webp', alt: 'Metaveo brand and website system visual.' },
+          { id: 'metaveo-system-c', label: 'Metaveo website system', src: './assets/case-studies/metaveo/system-c.webp', alt: 'A large Metaveo website system presentation.' },
         ],
       },
       {

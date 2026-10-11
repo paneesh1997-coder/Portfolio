@@ -18,7 +18,7 @@ export function CaseStudyPage({ study }: { study: CaseStudy }) {
   return (
     <main id="main-content" className="case-study-page">
       <header className="project-heading shell">
-        <Link className="text-link back-link" href="/works"><img className="arrow-icon back-arrow" src={publicAssetPath("/assets/arrow-red.svg")} width="17" height="15" alt="" aria-hidden="true" /><span>All case studies</span></Link>
+        <Link className="text-link back-link" href="/works"><img className="arrow-icon back-arrow" src={publicAssetPath("./assets/arrow-red.svg")} width="17" height="15" alt="" aria-hidden="true" /><span>All case studies</span></Link>
         <Eyebrow>{study.name} · Product design case study</Eyebrow>
         <h1>{study.title}<Square /></h1>
         <p>{study.summary}</p>

@@ -8,7 +8,7 @@ import { publicAssetPath } from '@/lib/paths';
 type ArrowTone = 'red' | 'white';
 
 function FlowArrow({ tone, className }: { tone: ArrowTone; className: string }) {
-  return <img className={cn('flow-cta-arrow', className)} src={publicAssetPath(`/assets/arrow-${tone}.svg`)} width="17" height="15" alt="" aria-hidden="true" />;
+  return <img className={cn('flow-cta-arrow', className)} src={publicAssetPath(`./assets/arrow-${tone}.svg`)} width="17" height="15" alt="" aria-hidden="true" />;
 }
 
 function FlowContent({ children, arrowTone, hoverArrowTone }: { children: ReactNode; arrowTone: ArrowTone; hoverArrowTone: ArrowTone }) {
